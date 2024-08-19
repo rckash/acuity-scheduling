@@ -1,0 +1,31 @@
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/Inter_18pt-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../../fonts/Inter_18pt-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "AvenirNext";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/AvenirNextCyr-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "AvenirNext";
+    font-style: normal;
+    font-weight: 500;
+    src: url(../../fonts/AvenirNextCyr-Medium.ttf) format(truetype);
+}

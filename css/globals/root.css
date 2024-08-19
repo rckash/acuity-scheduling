@@ -1,0 +1,10 @@
+:root {
+    /* Colors */
+    --c-black-primary: #000000;
+
+    --c-white: #FFFFFF;
+
+    /* Fonts */
+    --ff-primary: "Inter";
+    --ff-secondary: "AvenirNext";
+}

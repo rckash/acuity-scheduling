@@ -5,7 +5,12 @@
 }
 
 body {
-    color: ;
+    color: var(--c-black-primary);
+    background-color: var(--c-white);
+
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 a {
