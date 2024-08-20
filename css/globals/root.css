@@ -4,7 +4,11 @@
 
     --c-white: #FFFFFF;
 
-    --c-blue: #E0EBF4;
+    --c-blue-primary: #E0EBF4;
+    --c-blue-secondary: #C9E8F5;
+    --c-blue-tertiary: #635BFF;
+
+    --c-gold: #FFD140;
 
     /* Fonts */
     --ff-primary: "Inter";

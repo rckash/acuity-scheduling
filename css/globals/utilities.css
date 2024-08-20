@@ -1,3 +1,59 @@
 .container {
-    margin: 0 40px;
+    max-width: 1440px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 22px;
+}
+
+/* For Colors */
+.is-blue-bg-primary {
+    background-color: var(--c-blue-primary);
+}
+
+.is-blue-bg-secondary {
+    background-color: var(--c-blue-secondary);
+}
+
+.is-blue-bg-tertiary {
+    background-color: var(--c-blue-tertiary);
+}
+
+.is-black-bg-primary {
+    background-color: var(--c-black-primary);
+}
+
+.is-gold-bg {
+    background-color: var(--c-gold);
+}
+
+.is-white-bg {
+    background-color: var(--c-white);
+}
+
+/* Flex */
+.text-align-center {
+    text-align: center;
+}
+
+.row-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-align-items-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

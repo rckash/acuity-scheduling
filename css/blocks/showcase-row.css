@@ -1,0 +1,20 @@
+.showcase-subtitle {
+    padding-top: 64px;
+}
+
+.showcase {
+    padding: 64px 90px;
+    gap: 20px;
+}
+
+.showcase-item {
+    height: 140px;
+    width: 217px;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .showcase-item {
+
+    }
+}
