@@ -1,0 +1,32 @@
+.content-media {
+    padding: 40px;
+    gap: 20px;
+}
+
+.content-media__content {
+    padding-left: 88px;
+    max-width: 420px;
+}
+
+.content-media__title {
+    font-weight: 500;
+}
+
+.content-media__info {
+    padding-top: 24px;
+}
+
+.content-media__links {
+    padding-top: 48px;
+    gap: 24px;
+    text-decoration: underline;
+}
+
+.content-media__media {
+    width: 100%;
+    max-width: 558px;
+}
+
+.content-media__img {
+    height: auto;
+}

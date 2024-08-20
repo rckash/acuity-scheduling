@@ -1,7 +1,23 @@
+/* Containers */
 .container {
     max-width: 1440px;
     padding: 0 40px;
     margin: 0 auto;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-align-items-center {
+    display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -33,19 +49,17 @@
     background-color: var(--c-white);
 }
 
+.is-navy-bg {
+    background-color: var(--c-navy);
+}
+
+.is-white-text {
+    color: var(--c-white);
+}
+
 /* Flex */
 .text-align-center {
     text-align: center;
-}
-
-.row-space-between {
-    display: flex;
-    justify-content: space-between;
-}
-
-.row-align-items-center {
-    display: flex;
-    justify-content: center;
 }
 
 .flex-wrap {
