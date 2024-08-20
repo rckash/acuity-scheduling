@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+.container-max-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .col {
     display: flex;
     flex-direction: column;
@@ -53,8 +58,21 @@
     background-color: var(--c-navy);
 }
 
+.is-silver-blue-bg {
+    background-color: var(--c-silver-blue);
+}
+
+.is-black-text {
+    color: var(--c-black-primary);
+}
+
 .is-white-text {
     color: var(--c-white);
+}
+
+/* Text Size */
+.is-text-small {
+    font-size: 14px;
 }
 
 /* Flex */
@@ -69,5 +87,10 @@
 .flex-center {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.flex-horizontal-center {
+    display: flex;
     justify-content: center;
 }

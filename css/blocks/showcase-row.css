@@ -1,10 +1,14 @@
-.showcase-subtitle {
-    padding-top: 64px;
+.showcase {
+    margin-top: 20px;
 }
 
-.showcase {
+.showcase-row {
     padding: 64px 90px;
     gap: 20px;
+}
+
+.showcase-subtitle {
+    padding-top: 64px;
 }
 
 .showcase-item {
