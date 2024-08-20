@@ -1,0 +1,30 @@
+.featured-card {
+    max-width: 928px;
+}
+
+.featured-card__content {
+    padding: 64px 64px 0 64px;
+    max-width: 464px;
+    width: 50%;
+}
+
+.featured-card__title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.featured-card__info {
+    line-height: 25px;
+    margin-top: 8px;
+}
+
+.featured-card__media {
+    padding: 40px;
+}
+
+.featured-card__img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

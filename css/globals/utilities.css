@@ -62,6 +62,10 @@
     background-color: var(--c-silver-blue);
 }
 
+.is-cultured-bg {
+    background-color: var(--c-cultured);
+}
+
 .is-black-text {
     color: var(--c-black-primary);
 }
