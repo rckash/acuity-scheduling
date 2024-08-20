@@ -1,0 +1,17 @@
+footer {
+    font-family: "AvenirNext";
+    padding: 40px 0;
+}
+
+.footer__subtitle {
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.footer__links {
+    gap: 114px;
+}
+
+.footer__col {
+    gap: 14px;
+}
