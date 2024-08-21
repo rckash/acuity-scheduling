@@ -9,6 +9,14 @@
     max-width: 420px;
 }
 
+.content-media__content--col {
+    padding-left: 0px;
+    padding-bottom: 84px;
+    padding-top: 200px;
+    max-width: 572px;
+    margin: 0 auto;
+}
+
 .content-media__title {
     font-weight: 500;
 }
@@ -26,6 +34,10 @@
 .content-media__media {
     width: 100%;
     max-width: 558px;
+}
+
+.content-media__media--col {
+    max-width: 718px;
 }
 
 .content-media__img {
