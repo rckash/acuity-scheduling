@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="../css/globals/root.css">
     <link rel="stylesheet" href="../css/globals/utilities.css">
 
+    <!-- Scripts -->
+    <script src="../scripts/components/slider.js" defer></script>
+
 </head>
 <body>
 
@@ -71,22 +74,6 @@
         </div>
 
     </div>
-
-    <script>
-
-        let scrollContainer = document.getElementsByClassName("slider")[1];
-        let backBtn = document.getElementById("backBtn");
-        let nextBtn = document.getElementById("nextBtn");
-
-        backBtn.addEventListener("click", () => {
-            scrollContainer.scrollLeft -= 350;
-        });
-
-        nextBtn.addEventListener("click", () => {
-            scrollContainer.scrollLeft += 350;
-        });
-
-    </script>
     
 </body>
 </html>

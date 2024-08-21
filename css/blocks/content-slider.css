@@ -1,0 +1,20 @@
+.content-slider {
+    font-family: var(--ff-secondary);
+}
+
+.content-slider__content {
+    padding: 0 100px;
+    padding-top: 80px;
+}
+
+.content-slider__title {
+    max-width: 395px;
+}
+
+.content-slider__title-info {
+    max-width: 516px;
+}
+
+.content-slider__slider {
+    padding-top: 42px;
+}
