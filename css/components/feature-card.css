@@ -6,7 +6,6 @@
 .featured-card__content {
     padding: 64px 64px 0 64px;
     max-width: 464px;
-    width: 50%;
 }
 
 .featured-card__title {
@@ -28,4 +27,15 @@
     width: 300px;
     height: 300px;
     object-fit: cover;
+}
+
+/* Vertical Card */
+.featured-card-vertical {
+    max-width: 474px;
+    margin: 0 auto;
+}
+
+.featured-card-vertical .featured-card__content {
+    padding: 64px;
+    max-width: 440px;
 }
