@@ -1,0 +1,19 @@
+nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 27px 40px;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    gap: 40px;
+}
+
+nav a {
+    background-color: var(--c-navy);
+    color: var(--c-white);
+    font-size: 14px;
+    padding: 12px 24px;
+    border-radius: 12px;
+}
