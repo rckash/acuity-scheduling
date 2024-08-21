@@ -1,6 +1,6 @@
 .content-grid {
     font-family: var(--ff-secondary);
-    padding: 200px 100px 100px 100px;
+    padding: 200px 100px 0 100px;
 }
 
 .content-grid__title {
