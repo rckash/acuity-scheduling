@@ -1,5 +1,6 @@
 .featured-card {
     max-width: 928px;
+    width: 100%
     margin: 0 auto;
 }
 
@@ -32,6 +33,11 @@
 /* Vertical Card */
 .featured-card-vertical {
     max-width: 474px;
+    width: 100%;
+}
+
+.row-space-between:has(.featured-card-vertical) {
+    gap: 20px;
 }
 
 .featured-card-vertical .featured-card__content {
