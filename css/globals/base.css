@@ -17,6 +17,8 @@ body {
 h1, h2 {
     font-size: 38px;
     line-height: 48px;
+    font-family: var(--ff-primary);
+    font-weight: 500;
 }
 
 a {

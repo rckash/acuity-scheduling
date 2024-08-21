@@ -35,6 +35,14 @@
     justify-content: center;
 }
 
+.align-items-last-baseline {
+    align-items: last baseline;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
 .card {
     border-radius: 22px;
 }
