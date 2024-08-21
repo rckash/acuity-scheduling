@@ -21,6 +21,10 @@
     flex-direction: column;
 }
 
+.row {
+    display: flex;
+}
+
 .row-space-between {
     display: flex;
     justify-content: space-between;
