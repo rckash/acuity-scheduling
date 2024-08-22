@@ -18,11 +18,17 @@
 .slider--infinite {
     width: 100%;
     overflow-x: scroll;
+    overflow: hidden;
 }
 
 .slider {
     width: 100%;
     overflow-x: scroll;
+    overflow: hidden;
+}
+
+.slider--infinite::-webkit-scrollbar {
+    display: none;
 }
 
 .slider::-webkit-scrollbar {
