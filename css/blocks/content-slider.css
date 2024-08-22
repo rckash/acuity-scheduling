@@ -1,5 +1,6 @@
 .content-slider {
     font-family: var(--ff-secondary);
+    padding-top: 80px;
 }
 
 .content-slider__content {
