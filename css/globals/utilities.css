@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.is-section-padded {
+    margin: 0 40px;
+}
+
 .col {
     display: flex;
     flex-direction: column;
