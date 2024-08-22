@@ -9,7 +9,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .title_subtitle__title {
+        text-align: left;
+    }
+
     .title_subtitle__subtitle {
+        text-align: left;
         padding-top: 20px;
     }
 }

@@ -1,7 +1,3 @@
-.slider-wrap {
- 
-}
-
 .slider-btn {
     justify-content: flex-end;
     margin-right: 8px;
@@ -15,23 +11,13 @@
     cursor: pointer;
 }
 
-.slider--infinite {
+.slider--infinite, .slider {
     width: 100%;
     overflow-x: scroll;
     overflow: hidden;
 }
 
-.slider {
-    width: 100%;
-    overflow-x: scroll;
-    overflow: hidden;
-}
-
-.slider--infinite::-webkit-scrollbar {
-    display: none;
-}
-
-.slider::-webkit-scrollbar {
+.slider--infinite::-webkit-scrollbar, .slider::-webkit-scrollbar {
     display: none;
 }
 

@@ -7,9 +7,12 @@
     padding-top: 64px;
 }
 
+.content-grid__row {
+    margin: 0 auto;
+}
+
 .content-grid__content {
     max-width: 264px;
-    width: 100%;
 }
 
 .content-grid__number {
@@ -24,4 +27,12 @@
 
 .content-grid__info {
     padding: 0 62px 72px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .content-grid {
+        font-family: var(--ff-secondary);
+        padding: 0;
+        padding-top: 200px;
+    }
 }
