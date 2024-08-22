@@ -25,11 +25,11 @@
     flex-direction: column;
 }
 
-.row {
+.row, .responsive-row {
     display: flex;
 }
 
-.row-space-between {
+.row-space-between, .responsive-row-space-between {
     display: flex;
     justify-content: space-between;
 }
@@ -49,6 +49,22 @@
 
 .card {
     border-radius: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+    .responsive-row {
+        flex-direction: column;
+    }
+    
+    .responsive-row-space-between {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .responsive-row-align-items-center {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* For Colors */
