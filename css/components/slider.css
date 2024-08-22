@@ -47,13 +47,11 @@
 
 .slides--infinite {
     gap: 20px;
-    padding: 10px;
     animation: infiniteScroll 50s linear infinite;
 }
 
 .slides {
     gap: 20px;
-    padding: 10px;
 }
 
 .slide--infinite {
