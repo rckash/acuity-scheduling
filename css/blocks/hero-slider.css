@@ -1,6 +1,7 @@
 .hero-slider {
     max-width: 554px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .hero-slider__title {
