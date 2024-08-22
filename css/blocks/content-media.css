@@ -4,7 +4,7 @@
     gap: 20px;
 }
 
-.content-media__content {
+.content-media__content, .content-media__content--vertical {
     margin: 60px 0;
     margin-left: 88px;
     margin-bottom: 100px;
@@ -54,6 +54,11 @@
         max-width: 320px;
     }
 
+    .content-media__content--col {
+        max-width: 572px;
+        margin: 0 auto;
+    }
+
     .content-media__media {
         width: 100%;
         max-width: none;
@@ -64,5 +69,10 @@
 @media screen and (max-width: 1000px) {
     .content-media__content {
         max-width: 420px;
+    }
+
+    .content-media__content--col {
+        max-width: 572px;
+        margin: 0 auto;
     }
 }
