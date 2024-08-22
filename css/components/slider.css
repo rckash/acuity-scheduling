@@ -34,10 +34,12 @@
 .slides--infinite {
     gap: 20px;
     animation: infiniteScroll 50s linear infinite;
+    padding-right: 20px;
 }
 
 .slides {
     gap: 20px;
+    padding-right: 20px;
 }
 
 .slide--infinite {
@@ -50,4 +52,18 @@
     width: 350px;
     object-fit: cover;
     height: 240px;
+}
+
+@media screen and (max-width: 800px) {
+    .slide--infinite {
+        width: 300px;
+        object-fit: cover;
+        height: 224px;
+    }
+    
+    .slide {
+        width: 350px;
+        object-fit: cover;
+        height: 240px;
+    }
 }
