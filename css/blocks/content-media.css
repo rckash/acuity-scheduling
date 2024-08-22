@@ -5,8 +5,9 @@
 }
 
 .content-media__content {
-    padding-left: 88px;
-    padding: 60px 0;
+    margin: 60px 0;
+    margin-left: 88px;
+    margin-bottom: 100px;
     max-width: 420px;
 }
 
@@ -43,4 +44,18 @@
 
 .content-media__img {
     height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .content-media__content {
+        text-align: left;
+        margin: 20px 0 0;
+        margin-bottom: 60px;
+        max-width: 420px;
+    }
+
+    .content-media__media {
+        width: 100%;
+        max-width: none;
+    }
 }
