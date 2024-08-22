@@ -67,6 +67,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .content-media {
+        padding: 40px 0;
+    }
+
     .content-media__content {
         max-width: 420px;
     }

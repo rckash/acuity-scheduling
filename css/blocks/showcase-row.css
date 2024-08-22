@@ -20,7 +20,14 @@
 
 @media screen and (max-width: 500px) {
     .showcase-row {
-        padding: 64px 40px;
+        padding: 52px 0px;
         gap: 20px;
     }
+
+    .showcase-item {
+        height: 140px;
+        width: 217px;
+        border-radius: 100px;
+    }
+
 }
