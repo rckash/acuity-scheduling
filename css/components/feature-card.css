@@ -5,7 +5,7 @@
 }
 
 .featured-card__content {
-    padding: 64px 64px 0 64px;
+    padding: 64px;
     max-width: 464px;
 }
 
@@ -43,4 +43,16 @@
 .featured-card-vertical .featured-card__content {
     padding: 64px;
     max-width: 440px;
+}
+
+@media screen and (max-width: 1000px) {
+    .featured-card {
+        width: fit-content;
+    }
+
+    .featured-card__img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
 }
