@@ -3,16 +3,6 @@
     padding: 200px 100px 0 100px;
 }
 
-.content-grid__title {
-    max-width: 290px;
-    font-weight: 500;
-}
-
-.content-grid__title-info {
-    margin-right: 70px;
-    max-width: 394px;
-}
-
 .content-grid__grid {
     padding-top: 64px;
 }
