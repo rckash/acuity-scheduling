@@ -46,16 +46,23 @@
     height: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1240px) {
     .content-media__content {
         text-align: left;
         margin: 20px 0 0;
         margin-bottom: 60px;
-        max-width: 420px;
+        max-width: 320px;
     }
 
     .content-media__media {
         width: 100%;
         max-width: none;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .content-media__content {
+        max-width: 420px;
     }
 }
