@@ -11,7 +11,7 @@ nav {
     width: 95%;
 }
 
-nav ul, li {
+nav ul, nav li {
     text-decoration: none;
     list-style: none;
     gap: 40px;
