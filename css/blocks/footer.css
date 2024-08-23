@@ -4,18 +4,25 @@ footer {
     margin: 20px 0 36px 0;
 }
 
+footer li {
+    list-style: none;
+    padding-bottom: 14px;
+    margin-right: 100px;
+}
+
 .footer__subtitle {
-    font-weight: 500;
-    padding-bottom: 16px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .footer__links {
-    gap: 114px;
     padding-left: 20px;
+    text-align: left;
 }
 
-.footer__col {
-    gap: 14px;
+.is-two-columns {
+    column-count: 2;
 }
 
 @media screen and (max-width: 1000px) {
@@ -24,5 +31,18 @@ footer {
         padding-top: 40px;
         text-align: center;
         font-size: 20px;
+    }
+
+    .footer__subtitle {
+        font-size: 20px;
+        padding-top: 40px;
+    }
+
+    .is-two-columns {
+        column-count: 1;
+    }
+
+    footer li {
+        margin-right: 0;
     }
 }
