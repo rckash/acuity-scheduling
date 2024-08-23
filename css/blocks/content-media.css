@@ -49,8 +49,7 @@
 @media screen and (max-width: 1240px) {
     .content-media__content {
         text-align: left;
-        margin: 20px 0 0;
-        margin-top: 40px;
+        margin: 40px 0;
         margin-bottom: 60px;
         max-width: 320px;
     }
@@ -69,7 +68,8 @@
 
 @media screen and (max-width: 1000px) {
     .content-media {
-        padding: 40px 0;
+        margin-top: 40px;
+        padding: 40px 20px;
     }
 
     .content-media__content {

@@ -59,7 +59,7 @@
     
     .responsive-row-space-between {
         flex-direction: column;
-        margin: 0 auto;
+        align-items: center;
     }
     
     .responsive-row-align-items-center {
