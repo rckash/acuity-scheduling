@@ -103,16 +103,5 @@ for (i = 0; i < content.length; i++) {
     contentGridRow.append(contentDiv);
 }
 
-function addZeroToSingleDigit(num) {
-    if((num < 10) && (num > 0)) {
-        const numString = num.toString();
-        const newNumString = "0" + numString;
-
-        return newNumString;
-    } else {
-        return num.toString();
-    }
-}
-
 
   
