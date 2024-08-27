@@ -87,12 +87,6 @@ for (i = 0; i < content.length; i++) {
     const contentDiv = document.createElement("div");
     contentDiv.classList.add("content-grid__content");
 
-    const numberP = document.createElement("p");
-    numberP.classList.add("content-grid__number");
-    const currentNumberP = addZeroToSingleDigit(i+1);
-    const numberPText = document.createTextNode(currentNumberP);
-    numberP.appendChild(numberPText);
-
     const subtitleH3 = document.createElement("h3");
     subtitleH3.classList.add("content-grid__subtitle");
     const subtitleH3Text = document.createTextNode(content[i].headline);
@@ -104,7 +98,6 @@ for (i = 0; i < content.length; i++) {
     infoP.appendChild(infoPText);
 
     // append all elements to parent div
-    contentDiv.appendChild(numberP);
     contentDiv.appendChild(subtitleH3);
     contentDiv.appendChild(infoP);
     contentGridRow.append(contentDiv);

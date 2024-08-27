@@ -1,6 +1,7 @@
 .content-grid {
     font-family: var(--ff-secondary);
     padding: 200px 100px 0 100px;
+    counter-reset: cardNumber;
 }
 
 .content-grid__grid {
@@ -15,14 +16,19 @@
     max-width: 264px;
 }
 
-.content-grid__number {
+.content-grid__content::before {
+    counter-increment: cardNumber;
+    content: counter(cardNumber);
     font-size: 21px;
     font-family: var(--ff-primary);
+    position: relative;
+    bottom: 10px;
 }
 
 .content-grid__subtitle {
-    padding-top: 24px;
     font-weight: 500;
+    position: relative;
+    padding-top: 24px;
 }
 
 .content-grid__info {
