@@ -18,7 +18,7 @@
 
 .content-grid__content::before {
     counter-increment: cardNumber;
-    content: counter(cardNumber);
+    content: counter(cardNumber, decimal-leading-zero);
     font-size: 21px;
     font-family: var(--ff-primary);
     position: relative;
