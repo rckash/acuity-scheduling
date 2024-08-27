@@ -42,3 +42,21 @@
         padding-top: 200px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .content-grid__info {
+        padding: 0 0px 72px 0;
+    }
+
+    .content-grid__content {
+        max-width: 200px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .content-grid__content {
+        padding: 0;
+        margin: 0 auto;
+    }
+}
